@@ -6,7 +6,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.MainPage;
 import pages.ResendPage;
 import rules.WebDriverRule;
+import steps.CreateAccountSteps;
 import steps.DefaultSteps;
+import steps.SurveySteps;
 
 import static enums.Browser.*;
 import static enums.SocialNetwork.*;
@@ -15,6 +17,9 @@ public class WrikeTest {
 
     private static WebDriverRule webDriverRule = new WebDriverRule(CHROME);
     private static DefaultSteps defaultSteps = new DefaultSteps(webDriverRule.getDriver());
+
+    private CreateAccountSteps createAccountSteps = new CreateAccountSteps(webDriverRule.getDriver());
+    private SurveySteps surveySteps = new SurveySteps(webDriverRule.getDriver());
 
     private WebDriverWait wait = new WebDriverWait(webDriverRule.getDriver(), 20);
 
@@ -47,61 +52,56 @@ public class WrikeTest {
 
     @Test
     public void shouldSeeResendPage() {
-        defaultSteps.openMainPage();
-        defaultSteps.clickOn(onMainPage().getTopSubmitButton());
-        defaultSteps.enterText(onMainPage().getModalEmailInput(), defaultSteps.randomEmail());
-        defaultSteps.clickOn(onMainPage().getModalCreateAccountButton());
+        createAccountSteps.clickOn(onMainPage().getTopSubmitButton());
+        createAccountSteps.enterText(onMainPage().getModalEmailInput(), createAccountSteps.randomEmail());
+        createAccountSteps.clickOn(onMainPage().getModalCreateAccountButton());
         wait.until(ExpectedConditions.invisibilityOf(onMainPage().getModalCreateAccountButton()));
 
-        defaultSteps.shouldBeUrl("https://www.wrike.com/resend/");
+        createAccountSteps.shouldBeUrl("https://www.wrike.com/resend/");
     }
 
     @Test
     public void shouldSeeSuccessForm() {
-        defaultSteps.openMainPage();
-        defaultSteps.clickOn(onMainPage().getTopSubmitButton());
-        defaultSteps.enterText(onMainPage().getModalEmailInput(), defaultSteps.randomEmail());
-        defaultSteps.clickOn(onMainPage().getModalCreateAccountButton());
+        createAccountSteps.clickOn(onMainPage().getTopSubmitButton());
+        createAccountSteps.enterText(onMainPage().getModalEmailInput(), createAccountSteps.randomEmail());
+        createAccountSteps.clickOn(onMainPage().getModalCreateAccountButton());
         wait.until(ExpectedConditions.invisibilityOf(onMainPage().getModalCreateAccountButton()));
 
-        defaultSteps.clickRandomQaAnswer(onResendPage().getInterestButtons());
-        defaultSteps.clickRandomQaAnswer(onResendPage().getTeamMembersButtons());
-        defaultSteps.clickRandomQaAnswer(onResendPage().getPrimaryBusinessButtons());
-        defaultSteps.clickOn(onResendPage().getQaSubmitButton());
+        surveySteps.clickRandomQaAnswer(onResendPage().getInterestButtons());
+        surveySteps.clickRandomQaAnswer(onResendPage().getTeamMembersButtons());
+        surveySteps.clickRandomQaAnswer(onResendPage().getPrimaryBusinessButtons());
+        surveySteps.clickOn(onResendPage().getQaSubmitButton());
         wait.until(ExpectedConditions.invisibilityOf(onResendPage().getSurveyForm()));
 
-        defaultSteps.shouldBeVisible(onResendPage().getSurveySuccessForm());
+        surveySteps.shouldBeVisible(onResendPage().getSurveySuccessForm());
     }
 
     @Test
     public void shouldSeeResendMessage() {
-        defaultSteps.openMainPage();
-        defaultSteps.clickOn(onMainPage().getTopSubmitButton());
-        defaultSteps.enterText(onMainPage().getModalEmailInput(), defaultSteps.randomEmail());
-        defaultSteps.clickOn(onMainPage().getModalCreateAccountButton());
+        createAccountSteps.clickOn(onMainPage().getTopSubmitButton());
+        createAccountSteps.enterText(onMainPage().getModalEmailInput(), createAccountSteps.randomEmail());
+        createAccountSteps.clickOn(onMainPage().getModalCreateAccountButton());
         wait.until(ExpectedConditions.invisibilityOf(onMainPage().getModalCreateAccountButton()));
 
-        defaultSteps.clickOn(onResendPage().getResendEmailButton());
+        surveySteps.clickOn(onResendPage().getResendEmailButton());
         wait.until(ExpectedConditions.invisibilityOf(onResendPage().getResendEmailButton()));
 
-        defaultSteps.shouldBeVisible(onResendPage().getTextAfterResend());
+        surveySteps.shouldBeVisible(onResendPage().getTextAfterResend());
     }
 
     @Test
     public void shouldSeeTwitterButtonAndCorrectUrl() {
-        defaultSteps.openMainPage();
-        defaultSteps.clickOn(onMainPage().getTopSubmitButton());
-        defaultSteps.enterText(onMainPage().getModalEmailInput(), defaultSteps.randomEmail());
-        defaultSteps.clickOn(onMainPage().getModalCreateAccountButton());
+        createAccountSteps.clickOn(onMainPage().getTopSubmitButton());
+        createAccountSteps.enterText(onMainPage().getModalEmailInput(), createAccountSteps.randomEmail());
+        createAccountSteps.clickOn(onMainPage().getModalCreateAccountButton());
         wait.until(ExpectedConditions.invisibilityOf(onMainPage().getModalCreateAccountButton()));
 
-        defaultSteps.shouldHaveSocialButton(onMainPage().getSocialNetworkButtons(), TWITTER);
+        surveySteps.shouldHaveSocialButton(onMainPage().getSocialNetworkButtons(), TWITTER);
 
-        defaultSteps.clickOn(onResendPage().getTwitterButton());
-        defaultSteps.switchToNewWindow();
+        surveySteps.clickOn(onResendPage().getTwitterButton());
+        surveySteps.switchToNewWindow();
 
         defaultSteps.shouldBeUrl(TWITTER.getSocialNetwork());
         //без проверки корректной иконки
     }
-
 }

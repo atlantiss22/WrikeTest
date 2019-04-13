@@ -4,9 +4,7 @@ import enums.SocialNetwork;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import java.util.List;
-import java.util.Random;
 
 public class DefaultSteps {
 
@@ -34,17 +32,6 @@ public class DefaultSteps {
         element.sendKeys(text);
     }
 
-    public void clickRandomQaAnswer(List<WebElement> elements) {
-        Random random = new Random();
-        int number = random.nextInt(elements.size());
-        if (elements.get(number).getText().contains("Other")) {
-            elements.get(number).click();
-            elements.get(number).findElement(By.tagName("input")).sendKeys("test");
-        } else {
-            elements.get(number).click();
-        }
-    }
-
     public void shouldBeUrl(String url) {
         assert (driver.getCurrentUrl().equals(url));
     }
@@ -60,21 +47,6 @@ public class DefaultSteps {
                 exists = true;
         }
         assert (exists);
-    }
-
-    public String randomEmail() {
-        Random random = new Random();
-        //максимальная длина изменяемой части email = 238
-        int length = random.nextInt(238);
-        char nextChar;
-        StringBuilder email = new StringBuilder();
-
-        for (int i = 0; i < length; i++) {
-            nextChar = (char) (random.nextInt(25) + 97);
-            email.append(nextChar);
-        }
-        email.append("+wpt@wriketask.qaa");
-        return email.toString();
     }
 
     public void switchToNewWindow() {
