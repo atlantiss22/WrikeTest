@@ -4,7 +4,10 @@ import enums.SocialNetwork;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import java.util.List;
+
+import static org.junit.Assert.*;
 
 public class DefaultSteps {
 
@@ -33,20 +36,21 @@ public class DefaultSteps {
     }
 
     public void shouldBeUrl(String url) {
-        assert (driver.getCurrentUrl().equals(url));
+        assertEquals("Должен быть URL", driver.getCurrentUrl(), url);
     }
 
     public void shouldBeVisible(WebElement element) {
-        assert (element.isDisplayed());
+        assertTrue("Должны видеть элемент", element.isDisplayed());
     }
 
     public void shouldHaveSocialButton(List<WebElement> elements, SocialNetwork socialNetwork) {
         boolean exists = false;
-        for (WebElement element: elements) {
-            if (element.findElement(By.xpath("./a")).getAttribute("href").equals(socialNetwork.getSocialNetwork()))
+        for (WebElement element : elements) {
+            if (element.findElement(By.xpath("./a")).getAttribute("href").equals(socialNetwork.getSocialNetwork())) {
                 exists = true;
+            }
         }
-        assert (exists);
+        assertTrue("Должна присутствовать на странице", exists);
     }
 
     public void switchToNewWindow() {
