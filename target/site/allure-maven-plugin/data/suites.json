@@ -1,0 +1,57 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests.WrikeTest",
+    "children" : [ {
+      "name" : "shouldSeeResendPage",
+      "uid" : "c45e9f46b72a735d",
+      "parentUid" : "3290c8d6a0dbbbd55566f4c68427efc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555170451064,
+        "stop" : 1555170455617,
+        "duration" : 4553
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldSeeResendMessage",
+      "uid" : "284751da5f668109",
+      "parentUid" : "3290c8d6a0dbbbd55566f4c68427efc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555170455699,
+        "stop" : 1555170462327,
+        "duration" : 6628
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldSeeSuccessForm",
+      "uid" : "7913569781e2121",
+      "parentUid" : "3290c8d6a0dbbbd55566f4c68427efc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555170462332,
+        "stop" : 1555170467408,
+        "duration" : 5076
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldSeeTwitterButtonAndCorrectUrl",
+      "uid" : "171ec2a01836cc1c",
+      "parentUid" : "3290c8d6a0dbbbd55566f4c68427efc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555170467412,
+        "stop" : 1555170472604,
+        "duration" : 5192
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3290c8d6a0dbbbd55566f4c68427efc7"
+  } ]
+}

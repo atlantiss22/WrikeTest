@@ -1,0 +1,10 @@
+steps\CreateAccountSteps.class
+pages\ResendPage.class
+steps\DefaultSteps.class
+enums\Browser.class
+steps\SurveySteps.class
+enums\SocialNetwork.class
+rules\WebDriverRule.class
+tests\WrikeTest.class
+rules\WebDriverRule$1.class
+pages\MainPage.class

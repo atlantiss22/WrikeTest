@@ -1,0 +1,57 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "shouldSeeResendPage",
+      "uid" : "c45e9f46b72a735d",
+      "parentUid" : "bf49149a3821e34f7608bb6885d52868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555170451064,
+        "stop" : 1555170455617,
+        "duration" : 4553
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldSeeResendMessage",
+      "uid" : "284751da5f668109",
+      "parentUid" : "bf49149a3821e34f7608bb6885d52868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555170455699,
+        "stop" : 1555170462327,
+        "duration" : 6628
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldSeeSuccessForm",
+      "uid" : "7913569781e2121",
+      "parentUid" : "bf49149a3821e34f7608bb6885d52868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555170462332,
+        "stop" : 1555170467408,
+        "duration" : 5076
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldSeeTwitterButtonAndCorrectUrl",
+      "uid" : "171ec2a01836cc1c",
+      "parentUid" : "bf49149a3821e34f7608bb6885d52868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555170467412,
+        "stop" : 1555170472604,
+        "duration" : 5192
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ]
+}

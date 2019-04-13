@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","tests.WrikeTest.shouldSeeResendMessage","6628",""
+"passed","tests.WrikeTest.shouldSeeTwitterButtonAndCorrectUrl","5192",""
+"passed","tests.WrikeTest.shouldSeeSuccessForm","5076",""
+"passed","tests.WrikeTest.shouldSeeResendPage","4553",""

@@ -1,0 +1,41 @@
+[ {
+  "uid" : "7913569781e2121",
+  "name" : "shouldSeeSuccessForm",
+  "time" : {
+    "start" : 1555170462332,
+    "stop" : 1555170467408,
+    "duration" : 5076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c45e9f46b72a735d",
+  "name" : "shouldSeeResendPage",
+  "time" : {
+    "start" : 1555170451064,
+    "stop" : 1555170455617,
+    "duration" : 4553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "171ec2a01836cc1c",
+  "name" : "shouldSeeTwitterButtonAndCorrectUrl",
+  "time" : {
+    "start" : 1555170467412,
+    "stop" : 1555170472604,
+    "duration" : 5192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "284751da5f668109",
+  "name" : "shouldSeeResendMessage",
+  "time" : {
+    "start" : 1555170455699,
+    "stop" : 1555170462327,
+    "duration" : 6628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

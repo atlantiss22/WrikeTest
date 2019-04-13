@@ -1,0 +1,61 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-NCNIH42",
+    "children" : [ {
+      "name" : "13212@DESKTOP-NCNIH42.main(1)",
+      "children" : [ {
+        "name" : "shouldSeeResendMessage",
+        "uid" : "284751da5f668109",
+        "parentUid" : "37abc95117d6742a65284f81a56127ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555170455699,
+          "stop" : 1555170462327,
+          "duration" : 6628
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSeeTwitterButtonAndCorrectUrl",
+        "uid" : "171ec2a01836cc1c",
+        "parentUid" : "37abc95117d6742a65284f81a56127ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555170467412,
+          "stop" : 1555170472604,
+          "duration" : 5192
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSeeSuccessForm",
+        "uid" : "7913569781e2121",
+        "parentUid" : "37abc95117d6742a65284f81a56127ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555170462332,
+          "stop" : 1555170467408,
+          "duration" : 5076
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSeeResendPage",
+        "uid" : "c45e9f46b72a735d",
+        "parentUid" : "37abc95117d6742a65284f81a56127ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555170451064,
+          "stop" : 1555170455617,
+          "duration" : 4553
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "37abc95117d6742a65284f81a56127ce"
+    } ],
+    "uid" : "18528a9ffa1e5c1a17730c5130b204b3"
+  } ]
+}

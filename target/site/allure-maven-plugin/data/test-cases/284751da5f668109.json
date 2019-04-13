@@ -1,0 +1,49 @@
+{
+  "uid" : "284751da5f668109",
+  "name" : "shouldSeeResendMessage",
+  "fullName" : "tests.WrikeTest.shouldSeeResendMessage",
+  "historyId" : "4f6b5eb454947d2085833debde8035d1",
+  "time" : {
+    "start" : 1555170455699,
+    "stop" : 1555170462327,
+    "duration" : 6628
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.WrikeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldSeeResendMessage"
+  }, {
+    "name" : "suite",
+    "value" : "tests.WrikeTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NCNIH42"
+  }, {
+    "name" : "thread",
+    "value" : "13212@DESKTOP-NCNIH42.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "284751da5f668109.json",
+  "parameterValues" : [ ]
+}
