@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f86a5a87-ce19-4937-9db0-4aae2a91349c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/testwrike.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/testwrike.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/enums/SocialNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/enums/SocialNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rules/WebDriverRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rules/WebDriverRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DefaultSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DefaultSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WrikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/WrikeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/DefaultSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/DefaultSteps.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,85 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/WrikeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="59" column="72" lean-forward="true" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/enums/SocialNetwork.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-              <folding>
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/CreateAccountSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/SurveySteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/DefaultSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#1005#1006#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1173">
+              <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -118,15 +46,87 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/MainPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/enums/SocialNetwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-143">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/CreateAccountSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1319#1320#0" expanded="true" />
-                <element signature="e#1355#1356#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/SurveySteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding>
+                <element signature="e#1412#1413#0" expanded="true" />
+                <element signature="e#1455#1456#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/DefaultSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ResendPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1503#1504#0" expanded="true" />
+                <element signature="e#1551#1552#0" expanded="true" />
+                <element signature="e#1591#1592#0" expanded="true" />
+                <element signature="e#1639#1640#0" expanded="true" />
+                <element signature="e#1679#1680#0" expanded="true" />
+                <element signature="e#1799#1800#0" expanded="true" />
+                <element signature="e#1837#1838#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/rules/WebDriverRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -146,6 +146,7 @@
       <find>depe</find>
       <find>dependen</find>
       <find>sur</find>
+      <find>twitt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,13 +164,14 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/ResendPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/steps/DefaultSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/SurveySteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/enums/SocialNetwork.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/DefaultSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/target/allure-results/1aa7c872-2c71-4da5-ad36-751292e9f030-result.json" />
         <option value="$PROJECT_DIR$/src/test/java/steps/CreateAccountSteps.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/rules/WebDriverRule.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/WrikeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/enums/SocialNetwork.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/DefaultSteps.java" />
       </list>
     </option>
   </component>
@@ -193,7 +195,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,12 +205,66 @@
             <path>
               <item name="testwrike" type="b2602c69:ProjectViewProjectNode" />
               <item name="testwrike" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testwrike" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testwrike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testwrike" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testwrike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testwrike" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testwrike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testwrike" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testwrike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testwrike" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testwrike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testwrike" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testwrike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testwrike" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testwrike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,19 +293,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.WrikeTest">
-    <configuration name="WrikeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.WrikeTest" />
-      <module name="testwrike" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WrikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testwrike" />
       <extension name="coverage">
@@ -277,6 +319,22 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.WrikeTest" />
       <option name="METHOD_NAME" value="shouldSeeResendPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrikeTest.shouldSeeSocialButtonWithCorrectIconAndUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testwrike" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.WrikeTest" />
+      <option name="METHOD_NAME" value="shouldSeeSocialButtonWithCorrectIconAndUrl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -317,10 +375,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WrikeTest" />
+        <item itemvalue="JUnit.WrikeTest.shouldSeeSocialButtonWithCorrectIconAndUrl" />
         <item itemvalue="JUnit.WrikeTest.shouldSeeTwitterButtonAndCorrectUrl" />
         <item itemvalue="JUnit.WrikeTest.shouldSeeSuccessForm" />
         <item itemvalue="JUnit.WrikeTest.shouldSeeResendPage" />
-        <item itemvalue="Application.WrikeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -338,35 +396,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WrikeTest - 2019.04.13 at 16h 39m 48s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
+    <history-entry file="WrikeTest_shouldSeeTwitterButtonAndCorrectUrl - 2019.04.14 at 21h 29m 53s.xml">
+      <configuration name="WrikeTest.shouldSeeTwitterButtonAndCorrectUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WrikeTest - 2019.04.13 at 16h 42m 32s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
+    <history-entry file="WrikeTest_shouldSeeTwitterButtonAndCorrectUrl - 2019.04.14 at 21h 30m 48s.xml">
+      <configuration name="WrikeTest.shouldSeeTwitterButtonAndCorrectUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WrikeTest - 2019.04.13 at 17h 18m 27s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
+    <history-entry file="WrikeTest_shouldSeeTwitterButtonAndCorrectUrl - 2019.04.14 at 21h 31m 13s.xml">
+      <configuration name="WrikeTest.shouldSeeTwitterButtonAndCorrectUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WrikeTest - 2019.04.13 at 17h 23m 44s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
+    <history-entry file="WrikeTest_shouldSeeTwitterButtonAndCorrectUrl - 2019.04.14 at 21h 32m 11s.xml">
+      <configuration name="WrikeTest.shouldSeeTwitterButtonAndCorrectUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WrikeTest - 2019.04.13 at 17h 56m 13s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
+    <history-entry file="WrikeTest_shouldSeeTwitterButtonAndCorrectUrl - 2019.04.14 at 21h 33m 04s.xml">
+      <configuration name="WrikeTest.shouldSeeTwitterButtonAndCorrectUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WrikeTest - 2019.04.13 at 18h 20m 27s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
+    <history-entry file="WrikeTest_shouldSeeTwitterButtonAndCorrectUrl - 2019.04.14 at 21h 35m 14s.xml">
+      <configuration name="WrikeTest.shouldSeeTwitterButtonAndCorrectUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WrikeTest - 2019.04.13 at 18h 21m 42s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
+    <history-entry file="WrikeTest_shouldSeeTwitterButtonAndCorrectUrl - 2019.04.14 at 21h 37m 02s.xml">
+      <configuration name="WrikeTest.shouldSeeTwitterButtonAndCorrectUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WrikeTest - 2019.04.13 at 18h 26m 43s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
+    <history-entry file="WrikeTest_shouldSeeTwitterButtonAndCorrectUrl - 2019.04.14 at 21h 37m 37s.xml">
+      <configuration name="WrikeTest.shouldSeeTwitterButtonAndCorrectUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WrikeTest - 2019.04.13 at 18h 43m 46s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
+    <history-entry file="WrikeTest_shouldSeeTwitterButtonAndCorrectUrl - 2019.04.14 at 21h 43m 29s.xml">
+      <configuration name="WrikeTest.shouldSeeTwitterButtonAndCorrectUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WrikeTest - 2019.04.13 at 18h 45m 16s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
+    <history-entry file="WrikeTest_shouldSeeSocialButtonWithCorrectIconAndUrl - 2019.04.14 at 21h 44m 01s.xml">
+      <configuration name="WrikeTest.shouldSeeSocialButtonWithCorrectIconAndUrl" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -380,8 +438,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -390,12 +449,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33261105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32502708" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32502708" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
@@ -451,18 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rules/WebDriverRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -515,89 +562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ResendPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
-            <element signature="e#1551#1552#0" expanded="true" />
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#1799#1800#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/enums/Browser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SurveySteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DefaultSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/enums/SocialNetwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding>
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,38 +577,10 @@
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/5821d844-8549-47ca-9a5f-ed19f54fb024-result.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/1aa7c872-2c71-4da5-ad36-751292e9f030-result.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-report/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CreateAccountSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.allure/allure-2.0.1/plugins/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-results/5821d844-8549-47ca-9a5f-ed19f54fb024-result.json" />
+    <entry file="file://$PROJECT_DIR$/target/allure-results/1aa7c872-2c71-4da5-ad36-751292e9f030-result.json" />
+    <entry file="file://$PROJECT_DIR$/target/allure-report/index.html" />
+    <entry file="file://$PROJECT_DIR$/.allure/allure-2.0.1/plugins/README.txt" />
     <entry file="file://$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -657,21 +597,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="-156">
           <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rules/WebDriverRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/enums/Browser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/enums/SocialNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CreateAccountSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SurveySteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/WrikeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="59" column="72" lean-forward="true" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+        <state relative-caret-position="1173">
+          <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DefaultSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ResendPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1679#1680#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
           </folding>
         </state>
       </provider>

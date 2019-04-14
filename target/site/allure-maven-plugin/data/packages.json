@@ -5,49 +5,49 @@
     "name" : "tests",
     "children" : [ {
       "name" : "shouldSeeResendPage",
-      "uid" : "c45e9f46b72a735d",
+      "uid" : "85bd74f8dd1a91f0",
       "parentUid" : "bf49149a3821e34f7608bb6885d52868",
       "status" : "passed",
       "time" : {
-        "start" : 1555170451064,
-        "stop" : 1555170455617,
-        "duration" : 4553
+        "start" : 1555268253192,
+        "stop" : 1555268257562,
+        "duration" : 4370
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "shouldSeeResendMessage",
-      "uid" : "284751da5f668109",
+      "uid" : "be94751376c860fd",
       "parentUid" : "bf49149a3821e34f7608bb6885d52868",
       "status" : "passed",
       "time" : {
-        "start" : 1555170455699,
-        "stop" : 1555170462327,
-        "duration" : 6628
+        "start" : 1555268257625,
+        "stop" : 1555268262946,
+        "duration" : 5321
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldSeeSocialButtonWithCorrectIconAndUrl",
+      "uid" : "ac8a398cd7110a3e",
+      "parentUid" : "bf49149a3821e34f7608bb6885d52868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555268262950,
+        "stop" : 1555268267681,
+        "duration" : 4731
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "shouldSeeSuccessForm",
-      "uid" : "7913569781e2121",
+      "uid" : "b56479fa9f51eed8",
       "parentUid" : "bf49149a3821e34f7608bb6885d52868",
       "status" : "passed",
       "time" : {
-        "start" : 1555170462332,
-        "stop" : 1555170467408,
-        "duration" : 5076
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "shouldSeeTwitterButtonAndCorrectUrl",
-      "uid" : "171ec2a01836cc1c",
-      "parentUid" : "bf49149a3821e34f7608bb6885d52868",
-      "status" : "passed",
-      "time" : {
-        "start" : 1555170467412,
-        "stop" : 1555170472604,
-        "duration" : 5192
+        "start" : 1555268267686,
+        "stop" : 1555268273313,
+        "duration" : 5627
       },
       "flaky" : false,
       "parameters" : [ ]

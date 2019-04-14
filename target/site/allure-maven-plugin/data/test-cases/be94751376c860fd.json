@@ -1,12 +1,12 @@
 {
-  "uid" : "171ec2a01836cc1c",
-  "name" : "shouldSeeTwitterButtonAndCorrectUrl",
-  "fullName" : "tests.WrikeTest.shouldSeeTwitterButtonAndCorrectUrl",
-  "historyId" : "b7cc3a50d389cda67c5237964ece8efd",
+  "uid" : "be94751376c860fd",
+  "name" : "shouldSeeResendMessage",
+  "fullName" : "tests.WrikeTest.shouldSeeResendMessage",
+  "historyId" : "4f6b5eb454947d2085833debde8035d1",
   "time" : {
-    "start" : 1555170467412,
-    "stop" : 1555170472604,
-    "duration" : 5192
+    "start" : 1555268257625,
+    "stop" : 1555268262946,
+    "duration" : 5321
   },
   "status" : "passed",
   "flaky" : false,
@@ -20,7 +20,7 @@
     "value" : "tests.WrikeTest"
   }, {
     "name" : "testMethod",
-    "value" : "shouldSeeTwitterButtonAndCorrectUrl"
+    "value" : "shouldSeeResendMessage"
   }, {
     "name" : "suite",
     "value" : "tests.WrikeTest"
@@ -29,7 +29,7 @@
     "value" : "DESKTOP-NCNIH42"
   }, {
     "name" : "thread",
-    "value" : "13212@DESKTOP-NCNIH42.main(1)"
+    "value" : "3372@DESKTOP-NCNIH42.main(1)"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -44,6 +44,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "171ec2a01836cc1c.json",
+  "source" : "be94751376c860fd.json",
   "parameterValues" : [ ]
 }

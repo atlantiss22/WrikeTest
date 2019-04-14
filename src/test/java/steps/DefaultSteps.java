@@ -4,6 +4,7 @@ import enums.SocialNetwork;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import pages.MainPage;
 
 import java.util.List;
 
@@ -43,11 +44,21 @@ public class DefaultSteps {
         assertTrue("Должны видеть элемент", element.isDisplayed());
     }
 
-    public void shouldHaveSocialButton(List<WebElement> elements, SocialNetwork socialNetwork) {
+    public void shouldSeeSocialButtonWithCorrectIconAndUrl(List<WebElement> elements, SocialNetwork socialNetwork) {
         boolean exists = false;
         for (WebElement element : elements) {
-            if (element.findElement(By.xpath("./a")).getAttribute("href").equals(socialNetwork.getSocialNetwork())) {
-                exists = true;
+            //у кнопки корректный URL для перехода и xlink:href для отрисовки в блоке shadow-root
+            if (element.findElement(By.xpath("./a")).getAttribute("href").equals(socialNetwork.getSocialNetwork())
+                    && element.findElement(By.xpath(".//*[name() = 'use']")).getAttribute("xlink:href").equals(getXlink(socialNetwork))){
+                element.click();
+                switchToNewWindow();
+                //после перехода корректный URL в адресной строке
+                if (driver.getCurrentUrl().equals(socialNetwork.getSocialNetwork())) {
+                    exists = true;
+                    break;
+                } else {
+                    break;
+                }
             }
         }
         assertTrue("Должна присутствовать на странице", exists);
@@ -65,5 +76,11 @@ public class DefaultSteps {
     public void closeDriver() {
         driver.close();
         driver.quit();
+    }
+
+    private static String getXlink(SocialNetwork socialNetwork) {
+        String xlink = "/content/themes/wrike/dist/img/sprite/vector/footer-icons.symbol.svg?v2#"
+                + socialNetwork.toString().toLowerCase();
+        return xlink;
     }
 }

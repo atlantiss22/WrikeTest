@@ -4,57 +4,57 @@
   "children" : [ {
     "name" : "DESKTOP-NCNIH42",
     "children" : [ {
-      "name" : "13212@DESKTOP-NCNIH42.main(1)",
+      "name" : "3372@DESKTOP-NCNIH42.main(1)",
       "children" : [ {
         "name" : "shouldSeeResendMessage",
-        "uid" : "284751da5f668109",
-        "parentUid" : "37abc95117d6742a65284f81a56127ce",
+        "uid" : "be94751376c860fd",
+        "parentUid" : "4ba05972ca811033ba75393addc43de2",
         "status" : "passed",
         "time" : {
-          "start" : 1555170455699,
-          "stop" : 1555170462327,
-          "duration" : 6628
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldSeeTwitterButtonAndCorrectUrl",
-        "uid" : "171ec2a01836cc1c",
-        "parentUid" : "37abc95117d6742a65284f81a56127ce",
-        "status" : "passed",
-        "time" : {
-          "start" : 1555170467412,
-          "stop" : 1555170472604,
-          "duration" : 5192
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldSeeSuccessForm",
-        "uid" : "7913569781e2121",
-        "parentUid" : "37abc95117d6742a65284f81a56127ce",
-        "status" : "passed",
-        "time" : {
-          "start" : 1555170462332,
-          "stop" : 1555170467408,
-          "duration" : 5076
+          "start" : 1555268257625,
+          "stop" : 1555268262946,
+          "duration" : 5321
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "shouldSeeResendPage",
-        "uid" : "c45e9f46b72a735d",
-        "parentUid" : "37abc95117d6742a65284f81a56127ce",
+        "uid" : "85bd74f8dd1a91f0",
+        "parentUid" : "4ba05972ca811033ba75393addc43de2",
         "status" : "passed",
         "time" : {
-          "start" : 1555170451064,
-          "stop" : 1555170455617,
-          "duration" : 4553
+          "start" : 1555268253192,
+          "stop" : 1555268257562,
+          "duration" : 4370
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSeeSocialButtonWithCorrectIconAndUrl",
+        "uid" : "ac8a398cd7110a3e",
+        "parentUid" : "4ba05972ca811033ba75393addc43de2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555268262950,
+          "stop" : 1555268267681,
+          "duration" : 4731
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSeeSuccessForm",
+        "uid" : "b56479fa9f51eed8",
+        "parentUid" : "4ba05972ca811033ba75393addc43de2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555268267686,
+          "stop" : 1555268273313,
+          "duration" : 5627
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "37abc95117d6742a65284f81a56127ce"
+      "uid" : "4ba05972ca811033ba75393addc43de2"
     } ],
     "uid" : "18528a9ffa1e5c1a17730c5130b204b3"
   } ]

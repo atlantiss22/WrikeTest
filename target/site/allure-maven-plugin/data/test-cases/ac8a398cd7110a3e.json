@@ -1,12 +1,12 @@
 {
-  "uid" : "c45e9f46b72a735d",
-  "name" : "shouldSeeResendPage",
-  "fullName" : "tests.WrikeTest.shouldSeeResendPage",
-  "historyId" : "e4a794eb39ad71bc5f5354f80fe3786b",
+  "uid" : "ac8a398cd7110a3e",
+  "name" : "shouldSeeSocialButtonWithCorrectIconAndUrl",
+  "fullName" : "tests.WrikeTest.shouldSeeSocialButtonWithCorrectIconAndUrl",
+  "historyId" : "c110a1c9a91e7b355c19504423856350",
   "time" : {
-    "start" : 1555170451064,
-    "stop" : 1555170455617,
-    "duration" : 4553
+    "start" : 1555268262950,
+    "stop" : 1555268267681,
+    "duration" : 4731
   },
   "status" : "passed",
   "flaky" : false,
@@ -20,7 +20,7 @@
     "value" : "tests.WrikeTest"
   }, {
     "name" : "testMethod",
-    "value" : "shouldSeeResendPage"
+    "value" : "shouldSeeSocialButtonWithCorrectIconAndUrl"
   }, {
     "name" : "suite",
     "value" : "tests.WrikeTest"
@@ -29,7 +29,7 @@
     "value" : "DESKTOP-NCNIH42"
   }, {
     "name" : "thread",
-    "value" : "13212@DESKTOP-NCNIH42.main(1)"
+    "value" : "3372@DESKTOP-NCNIH42.main(1)"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -44,6 +44,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c45e9f46b72a735d.json",
+  "source" : "ac8a398cd7110a3e.json",
   "parameterValues" : [ ]
 }

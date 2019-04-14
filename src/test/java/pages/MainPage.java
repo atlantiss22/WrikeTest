@@ -20,10 +20,6 @@ public class MainPage {
     @FindBy(xpath = "//label[@class='modal-form-trial__label']/button")
     private WebElement modalCreateAccountButton;
 
-    // TODO: 12.04.2019 удалить
-    @FindBy(xpath = "//a[@href='https://twitter.com/wrike']/parent::li")
-    private WebElement twitterButton;
-
     @FindBy(xpath = "//ul[@class='wg-footer__social-list']/li")
     private List<WebElement> socialNetworkButtons;
 
@@ -42,11 +38,6 @@ public class MainPage {
 
     public WebElement getModalCreateAccountButton() {
         return modalCreateAccountButton;
-    }
-
-    // TODO: 12.04.2019 удалить
-    public WebElement getTwitterButton() {
-        return twitterButton;
     }
 
     public List<WebElement> getSocialNetworkButtons() {

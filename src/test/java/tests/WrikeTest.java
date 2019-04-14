@@ -82,7 +82,6 @@ public class WrikeTest {
         createAccountSteps.enterText(onMainPage().getModalEmailInput(), createAccountSteps.randomEmail());
         createAccountSteps.clickOn(onMainPage().getModalCreateAccountButton());
         wait.until(ExpectedConditions.invisibilityOf(onMainPage().getModalCreateAccountButton()));
-
         surveySteps.clickOn(onResendPage().getResendEmailButton());
         wait.until(ExpectedConditions.invisibilityOf(onResendPage().getResendEmailButton()));
 
@@ -90,18 +89,12 @@ public class WrikeTest {
     }
 
     @Test
-    public void shouldSeeTwitterButtonAndCorrectUrl() {
+    public void shouldSeeSocialButtonWithCorrectIconAndUrl() {
         createAccountSteps.clickOn(onMainPage().getTopSubmitButton());
         createAccountSteps.enterText(onMainPage().getModalEmailInput(), createAccountSteps.randomEmail());
         createAccountSteps.clickOn(onMainPage().getModalCreateAccountButton());
         wait.until(ExpectedConditions.invisibilityOf(onMainPage().getModalCreateAccountButton()));
 
-        surveySteps.shouldHaveSocialButton(onMainPage().getSocialNetworkButtons(), TWITTER);
-
-        surveySteps.clickOn(onResendPage().getTwitterButton());
-        surveySteps.switchToNewWindow();
-
-        defaultSteps.shouldBeUrl(TWITTER.getSocialNetwork());
-        //без проверки корректной иконки
+        surveySteps.shouldSeeSocialButtonWithCorrectIconAndUrl(onMainPage().getSocialNetworkButtons(), TWITTER);
     }
 }
